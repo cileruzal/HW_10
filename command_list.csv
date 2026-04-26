@@ -1,0 +1,16 @@
+  209  git add .
+  210  git commit -m "develop_test.txt dosyası oluşturuldu"
+  211  echo "txt dosyası develop branchinda değiştirildi"
+  212  git status
+  213  git add .
+  214  git commit -m "txt dosyası güncellendi"
+  215  git checkout
+  216  git branch
+  217  echo "txt dosyasi develop branchinda degistirildi" >> develop_test.txt
+  218  git status
+  219  git add .
+  220  git commit -m "txt dosyası güncellendi"
+  221  git checkout main
+  222  git merge develop
+  223  git log
+  224  git push origin main
